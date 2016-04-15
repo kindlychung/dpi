@@ -1,0 +1,9 @@
+[package]
+
+name = "dpi"
+version = "0.0.1"
+authors = [ "Kaiyin Zhong <kindlychung@gmail.com>" ]
+
+[[bin]]
+
+name = "dpi"
