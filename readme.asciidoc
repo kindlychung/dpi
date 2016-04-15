@@ -1,0 +1,25 @@
+= dpi: Calculate the DPI of a display at the commandline
+
+== Install
+
+[source, bash]
+---------
+cargo install --git https://github.com/kindlychung/dpi
+---------
+
+== Usage
+
+Just type `dpi` and enter at the terminal, and you will see:
+
+[source]
+------------------
+dpi
+
+Usage:
+    dpi  <inch> <dimension> <dimension>
+    dpi  <dimension> <inch> <dimension>
+    dpi  <dimension> <inch> <dimension>
+    dpi --help
+    dpi -h
+    dpi
+-----------------

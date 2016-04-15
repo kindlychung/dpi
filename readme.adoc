@@ -1,4 +1,0 @@
-= dpi: Calculate the DPI of a display at the commandline 
-
-
-
