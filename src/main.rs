@@ -26,7 +26,7 @@ Usage:
                                          .collect();
             args.sort_by(|a, b| a.partial_cmp(b).unwrap());
             let dpi = (args[1].powi(2) + args[2].powi(2)).sqrt() / args[0];
-            println!("DPI is {} for a {}x{} disaply.",
+            println!("📺 DPI is {} for a {}x{} display.",
                      dpi.round() as i64,
                      args[1].round() as i64,
                      args[2].round() as i64);
